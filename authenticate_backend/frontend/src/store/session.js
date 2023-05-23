@@ -29,7 +29,7 @@ export const login = user => async dispatch => {
     dispatch(setUser(data.user))
 }
 
-const sessionReducer = (state = {}, action) => {
+const sessionReducer = (state = {user: null}, action) => {
     const newState = { ...state }
     switch (action.type) {
         case SET_USER:
