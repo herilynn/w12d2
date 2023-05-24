@@ -1,0 +1,27 @@
+.navigation {
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation li{
+    list-style: none;
+    display: flex;
+    flex-direction: row;    
+}
+
+.home {
+    right: 0;
+    font-size: 30px;
+    margin: 5px;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home:hover {
+    color: grey;
+}
