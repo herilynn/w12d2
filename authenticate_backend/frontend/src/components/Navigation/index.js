@@ -27,7 +27,7 @@ function Navigation() {
     <ul className="navigation">
       <li>
         <NavLink exact to="/" className="home">
-        <i class="fa-solid fa-house"></i>
+        <i className="fa-solid fa-house"></i>
         </NavLink>
         {sessionLinks}
       </li>
